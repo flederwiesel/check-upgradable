@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apps=(
-	"7+ Taskbar Tweaker,8963c6cb1b8f6891f1414bf5ddfc8dfd,https://rammichael.com/downloads/7tt_setup.exe"
+	"7+ Taskbar Tweaker,09d31d22178238a329aa6832d492fd6e,https://rammichael.com/downloads/7tt_setup.exe?changelog"
 	"Adobe Reader,7fab855641eee46ef4d03b0d386dd741,https://admdownload.adobe.com/bin/live/readerdc64_en_xa_install.exe"
 	"Apple iTunes,8802d0f56f34154cbd970ccec27dd24d,https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
 	"Beyond Compare,d780b8acb18ffe05b1c6e0492f6c3295,https://scootersoftware.com/download.php"
