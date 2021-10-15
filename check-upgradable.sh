@@ -10,7 +10,7 @@ apps=(
 	"Go Compiler,3f79343284324e8be42f22a63d1aba07,https://golang.org/dl/"
 	"Google Chrome,dfbb1c61381a1bdd6575b3948309abb7,https://latestversionof.com/chrome/"
 	"gtk2-runtime,bf989de4faf29a08b39ae207dd6c9c49,https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
-	"Inno Setup,2e741d0274316d73a6fda5edeff22bed,https://jrsoftware.org/download.php/is.exe,innosetup-6.2.0.exe"
+	"Inno Setup,12f65953903f0f4c87a4bcdbddf66e9b,https://jrsoftware.org/"
 	"KeePass,b013b88d2d5b9a15b9fc9d4462260b49,https://keepass.info/download.html"
 	"Mozilla Firefox,eb93daf279690f11923017890071a3de,https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US,Firefox-Setup.exe"
 	"Notepad++,a7e341e898ab2b9692c9183892c7185c,https://notepad-plus-plus.org/downloads/"
