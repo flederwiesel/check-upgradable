@@ -98,12 +98,12 @@ do
 	if [[ $filename ]]; then
 		filename="$DLDIR/$filename"
 		wget -q -O "$filename" "$url"
-		md5sum -c <(echo "$md5 $filename")
 	else
-		wget -q -O - "$url" |
-		eval $filter |
-		md5sum -c <(echo "$md5 -")
-	fi &>/dev/null || echo "$check"
+		filename="$DLDIR/$name.html"
+		wget -q -O - "$url" | eval $filter > "$filename"
+	fi
+
+	md5sum -c <(echo "$md5 $filename") &>/dev/null && rm -f "$filename" || echo "$check"
 done
 ))
 
