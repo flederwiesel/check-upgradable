@@ -39,7 +39,14 @@ apps=(
 	"PuTTY,6eb151692238dd71515a388c7e9522c9,https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
 	# Python 3.10.0
 	"Python,5e521cb602e9656317099c3c9bcfa5c9,https://www.python.org/downloads/"
-	"Qt5 Creator,35d38343536f4afe429dd0fbb6700a6f,https://www.qt.io/offline-installers"
+	# Qt 5.12.11
+	"Qt5 LTS,57785f912bd3da663b721b7240ef4c77,https://www.qt.io/offline-installers| sed -rn '/qt\\\\/5\\.12/ { s:.*(<a.*qt/5\\.12.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
+	# Qt 5.15.x
+	"Qt5,5c9ddd5fa18b70342d7d1b26a17ee4aa,https://www.qt.io/offline-installers| sed -rn '/qt\\\\/5\\.15/ { s:.*(<a.*qt/5\\.15.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
+	# Qt Creator 5.0.2
+	"Qt5 Creator,d850f688dd13fd025f7738774e6588e9,https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
+	# Qt 6.2.0
+	"Qt6,e355971a30765deb782dc0e806b2ed24,https://www.qt.io/offline-installers| sed -rn '/qt\\\\/6/ { s:.*(<a.*qt/6.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	# SamsungDeX 2.0.1.2
 	"SamsungDeX,29f5c4d25f13663eacd10f83803176d7,https://www.samsung.com/global/download/SamsungDeXWin,SamsungDeXSetupWin.exe"
 	# SciTE 5.1.3
