@@ -9,7 +9,10 @@ apps=(
 	# Apple Software Update 2.6.3.1
 	# Bonjour 3.1.0.1
 	# iTunes 12.12.1.1
-	"Apple iTunes,8802d0f56f34154cbd970ccec27dd24d,https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
+	#
+	#	Extract *.msi from *.exe:
+	#	    sh 7z e -y iTunes64Setup.exe AppleMobileDeviceSupport64.msi AppleSoftwareUpdate.msi
+	"Apple Applications,8802d0f56f34154cbd970ccec27dd24d,https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
 	# Beyond Compare 4.4.0, build 25886, released Aug. 13, 2021
 	"Beyond Compare,72b9fe0bae1e234a8e07cd7a36832c2c,https://scootersoftware.com/download.php| grep 'Current Version:'"
 	# fra-airtraffic 1.0.0.0
