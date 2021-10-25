@@ -52,8 +52,8 @@ apps=(
 	"TortoiseSVN,2f7477e50e164bb95b655b0024f460ed,https://tortoisesvn.net/downloads.html"
 	# Unison v2.51.4
 	"Unison,4832ba2e4c1ae1f093c0d65c450b4f66,https://api.github.com/repos/bcpierce00/unison/releases/latest| jq -r .published_at"
-	# VeraCrypt 1.24-Update8 (Saturday November 28, 2020)
-	"VeraCrypt,fcb084a4a8940fceb45a13a9947bee99,https://www.veracrypt.fr/en/Downloads.html"
+	# 1.24-Update7 (Friday August 7, 2020)
+	"VeraCrypt,6f6bd6953c25802b77c8ae496fd9fda7,https://www.veracrypt.fr/en/Downloads.html"
 	# VirtualBox 6.1.28
 	"VirtualBox,0adaa84fa5ee6f9c0b38631ec5b62fe7,https://www.virtualbox.org/wiki/Downloads"
 	# VirtuaWin 4.5
