@@ -11,11 +11,11 @@ apps=(
 	# iTunes 12.12.1.1
 	"Apple iTunes,8802d0f56f34154cbd970ccec27dd24d,https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
 	# Beyond Compare 4.4.0, build 25886, released Aug. 13, 2021
-	"Beyond Compare,d780b8acb18ffe05b1c6e0492f6c3295,https://scootersoftware.com/download.php"
+	"Beyond Compare,72b9fe0bae1e234a8e07cd7a36832c2c,https://scootersoftware.com/download.php| grep 'Current Version:'"
 	# fra-airtraffic 1.0.0.0
 	"fra-airtraffic,05c530eefc4e5c7652daacca2f4bfe3d,https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest"
 	# GIMP 2.10.28
-	"GIMP,4b0b919cd49fe2aac5469ec14d8fd9eb,https://www.gimp.org/downloads/"
+	"GIMP,614e8738c77d13ddaf5dca43b874161c,https://www.gimp.org/downloads/| grep 'The current stable release of GIMP is'"
 	# Go 1.17.2
 	"Go Compiler,3f79343284324e8be42f22a63d1aba07,https://golang.org/dl/"
 	# 96.0.4664.18 (Oct. 21, 2021)
@@ -38,7 +38,7 @@ apps=(
 	# PuTTY 0.76
 	"PuTTY,6eb151692238dd71515a388c7e9522c9,https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
 	# Python 3.10.0
-	"Python,5e521cb602e9656317099c3c9bcfa5c9,https://www.python.org/downloads/"
+	"Python,63eb318dc73ea7b474871dabc52e87f3,https://www.python.org/downloads/| grep -m 1 'href=\"/downloads/release/python-'"
 	# Qt 5.12.11
 	"Qt5 LTS,57785f912bd3da663b721b7240ef4c77,https://www.qt.io/offline-installers| sed -rn '/qt\\\\/5\\.12/ { s:.*(<a.*qt/5\\.12.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	# Qt 5.15.x
