@@ -10,7 +10,7 @@ apps=(
 	"Beyond Compare	4.4.0, build 25886, released Aug. 13, 2021	72b9fe0bae1e234a8e07cd7a36832c2c	https://scootersoftware.com/download.php| grep 'Current Version:'"
 	"fra-airtraffic	1.0.0.0	05c530eefc4e5c7652daacca2f4bfe3d	https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest"
 	"GIMP	2.10.28	614e8738c77d13ddaf5dca43b874161c	https://www.gimp.org/downloads/| grep 'The current stable release of GIMP is'"
-	"Go Compiler	1.17.2	3f79343284324e8be42f22a63d1aba07	https://golang.org/dl/"
+	"Go Compiler	1.17.2	a5386f7602897b26af2cbc6277d2045e	https://golang.org/dl/"
 	"Google Chrome	96.0.4664.27 (Oct. 27, 2021)	1366cc9e7e8694c77753fa473720a9c0	https://latestversionof.com/chrome/"
 	"gtk2-runtime	2.24.33-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
 #	"gtk2-runtime	3.24.24-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
@@ -36,9 +36,9 @@ apps=(
 	"VirtualBox	6.1.28	0adaa84fa5ee6f9c0b38631ec5b62fe7	https://www.virtualbox.org/wiki/Downloads"
 	"VirtuaWin	4.5	7b8395abcd47ee2bc71ab08ccad02308	https://virtuawin.sourceforge.io/?page_id=2"
 	"VLC Media Player	3.0.16	770ab3b4a6dd0ba206ebf5b884009578	https://api.github.com/repos/videolan/vlc/tags"
-	"Wireshark	3.4.9	47ed5d678a1e41a76b33af4fa8babdd2	https://www.wireshark.org/download/| grep -v 'rc[0-9][0-9]*\.'"
+	"Wireshark	3.4.9	2a565e898501fdabea40ab8026a287bf	https://www.wireshark.org/download/| grep -v 'rc[0-9][0-9]*\\.'"
 	"XAMPP	8.0.12	7dd42f4ef0c65fc7f81b57cd05600eab	https://www.apachefriends.org/download.html"
-	"yEd	3.21.1	9688eb8ba62cecb318a1059b0b87ad37	https://www.yworks.com/products/yed/download%23download"
+	"yEd	3.21.1	bc4ac35c243c19f85d313af1c8e9130f	https://www.yworks.com/products/yed/download%23download"
 )
 
 DLDIR=/tmp
