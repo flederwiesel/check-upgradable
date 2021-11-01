@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apps=(
-	"7+ Taskbar Tweaker	v5.12.1	c83edb24e5c6c4f6a4793f198bf1d7a5	https://rammichael.com/downloads/7tt_setup.exe?changelog"
+	"7+ Taskbar Tweaker	v5.12.2	e175b5552936b9ed53569971bb73eac7	https://rammichael.com/downloads/7tt_setup.exe?changelog"
 	"Adobe Reader	2021.007.20099	7fab855641eee46ef4d03b0d386dd741	https://admdownload.adobe.com/bin/live/readerdc64_en_xa_install.exe"
 	#	Extract *.msi from *.exe:
 	#	    sh 7z e -y iTunes64Setup.exe AppleMobileDeviceSupport64.msi AppleSoftwareUpdate.msi
