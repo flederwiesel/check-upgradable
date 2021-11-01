@@ -36,7 +36,7 @@ apps=(
 	"VirtualBox	6.1.28	0adaa84fa5ee6f9c0b38631ec5b62fe7	https://www.virtualbox.org/wiki/Downloads"
 	"VirtuaWin	4.5	7b8395abcd47ee2bc71ab08ccad02308	https://virtuawin.sourceforge.io/?page_id=2"
 	"VLC Media Player	3.0.16	770ab3b4a6dd0ba206ebf5b884009578	https://api.github.com/repos/videolan/vlc/tags"
-	"Wireshark	3.4.9	47ed5d678a1e41a76b33af4fa8babdd2	https://www.wireshark.org/download/| grep -v 'rc[0-9][0-9]*\.'"
+	"Wireshark	3.4.9	9d940ff8b0ea42613adb24d01861f0b9	https://www.wireshark.org/download/| sed '/rc[0-9][0-9]*\\\\./d; s/<td class=\\\"indexcollastmod\\\">[^<]*<\\\\/td>//g'"
 	"XAMPP	8.0.12	7dd42f4ef0c65fc7f81b57cd05600eab	https://www.apachefriends.org/download.html"
 	"yEd	3.21.1	9688eb8ba62cecb318a1059b0b87ad37	https://www.yworks.com/products/yed/download%23download"
 )
