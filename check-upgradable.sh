@@ -11,7 +11,7 @@ apps=(
 	"fra-airtraffic	1.0.0.0	05c530eefc4e5c7652daacca2f4bfe3d	https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest"
 	"GIMP	2.10.28	614e8738c77d13ddaf5dca43b874161c	https://www.gimp.org/downloads/| grep 'The current stable release of GIMP is'"
 	"Go Compiler	1.17.2	3f79343284324e8be42f22a63d1aba07	https://golang.org/dl/"
-	"Google Chrome	96.0.4664.27 (Oct. 27, 2021)	1366cc9e7e8694c77753fa473720a9c0	https://latestversionof.com/chrome/"
+	"Google Chrome	94.0.4606.113 (Oct. 28, 2021)	5fbfdecf0844c07301bc011fa86ebbc1	https://latestversionof.com/chrome/"
 	"gtk2-runtime	2.24.33-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
 #	"gtk2-runtime	3.24.24-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
 	"Inno Setup	6.2.0	12f65953903f0f4c87a4bcdbddf66e9b	https://jrsoftware.org/"
