@@ -16,7 +16,7 @@ apps=(
 #	"gtk2-runtime	3.24.24-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
 	"Inno Setup	6.2.0	12f65953903f0f4c87a4bcdbddf66e9b	https://jrsoftware.org/"
 	"KeePass	2.49	b013b88d2d5b9a15b9fc9d4462260b49	https://keepass.info/download.html"
-	"Mozilla Firefox	93.0	eb93daf279690f11923017890071a3de	https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US	Firefox-Setup.exe"
+	"Mozilla Firefox	94.0	a30ef4314bc0ad656484d373bf2383b5	https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US	Firefox-Setup.exe"
 	"Notepad++	8.1.9	1c364b3b3ca764d748d1b88799bb965b	https://notepad-plus-plus.org/downloads/"
 	"Paint.NET	4.3.2	01708a41ab0942be865b941603e15e08	https://www.getpaint.net/download.html"
 	"PCANView	4.3.4.615	4ee7a82877375a3b41afa2b0e16487ab	https://www.peak-system.com/fileadmin/media/files/pcanview.zip"
