@@ -24,7 +24,7 @@ apps=(
 	"Python	3.10.0	63eb318dc73ea7b474871dabc52e87f3	https://www.python.org/downloads/| grep -m 1 'href=\"/downloads/release/python-'"
 	"Qt5 LTS	5.12.11	57785f912bd3da663b721b7240ef4c77	https://www.qt.io/offline-installers| sed -rn '/qt\\\\/5\\.12/ { s:.*(<a.*qt/5\\.12.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"Qt5	5.15.x	5c9ddd5fa18b70342d7d1b26a17ee4aa	https://www.qt.io/offline-installers| sed -rn '/qt\\\\/5\\.15/ { s:.*(<a.*qt/5\\.15.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
-	"Qt5 Creator	5.0.2	d850f688dd13fd025f7738774e6588e9	https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
+	"Qt5 Creator	5.0.3	69c4afe24e6384abd8f44e2ff2ad1da5	https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"Qt6	6.2.1	68f845b8a490ce3a76e7bd71fc381e36	https://www.qt.io/offline-installers| sed -rn '/qt\\\\/6/ { s:.*(<a.*qt/6.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"SamsungDeX	2.0.1.2	29f5c4d25f13663eacd10f83803176d7	https://www.samsung.com/global/download/SamsungDeXWin	SamsungDeXSetupWin.exe"
 	"SciTE	5.1.3	d1dbbb48f22fc09ea3ac54dd74fe6a29	https://www.scintilla.org/ScintillaDownload.html"
@@ -40,7 +40,7 @@ apps=(
 	"XAMPP	8.0.12	7dd42f4ef0c65fc7f81b57cd05600eab	https://www.apachefriends.org/download.html"
 	"yEd	3.21.1	934a24495d4742e7cdfb266e2bb569fb	https://www.yworks.com/products/yed/download%23download| sed 's/</\\\\n&/g' | grep '<h3>Download'"
 )
-
+apps=(	"Qt5 Creator	5.0.3	69c4afe24e6384abd8f44e2ff2ad1da5	https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'")
 DLDIR=/tmp
 
 set -o pipefail
