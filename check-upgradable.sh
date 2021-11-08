@@ -27,7 +27,7 @@ apps=(
 	"Qt5 Creator	5.0.3	69c4afe24e6384abd8f44e2ff2ad1da5	https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"Qt6	6.2.1	68f845b8a490ce3a76e7bd71fc381e36	https://www.qt.io/offline-installers| sed -rn '/qt\\\\/6/ { s:.*(<a.*qt/6.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"SamsungDeX	2.0.1.2	29f5c4d25f13663eacd10f83803176d7	https://www.samsung.com/global/download/SamsungDeXWin	SamsungDeXSetupWin.exe"
-	"SciTE	5.1.3	d1dbbb48f22fc09ea3ac54dd74fe6a29	https://www.scintilla.org/ScintillaDownload.html"
+	"SciTE	5.1.4	f50d548d6a7937da3d6b20ae7a585190	https://www.scintilla.org/ScintillaDownload.html"
 	"TigerVNC	1.11.0	9dd0eba6293fa6b4bc9743ec31db347c	https://api.github.com/repos/TigerVNC/tigervnc/releases/latest| jq -r .published_at"
 	"TortoiseGit	2.12.0	f9ae1232e9487183f22ea43277834e8a	https://tortoisegit.org/download/"
 	"TortoiseSVN	1.14.1	2f7477e50e164bb95b655b0024f460ed	https://tortoisesvn.net/downloads.html"
@@ -40,7 +40,7 @@ apps=(
 	"XAMPP	8.0.12	7dd42f4ef0c65fc7f81b57cd05600eab	https://www.apachefriends.org/download.html"
 	"yEd	3.21.1	934a24495d4742e7cdfb266e2bb569fb	https://www.yworks.com/products/yed/download%23download| sed 's/</\\\\n&/g' | grep '<h3>Download'"
 )
-apps=(	"Qt5 Creator	5.0.3	69c4afe24e6384abd8f44e2ff2ad1da5	https://www.qt.io/offline-installers| sed -rn '/qtcreator\\\\/5/ { s:.*(<a.*qtcreator/5.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'")
+
 DLDIR=/tmp
 
 set -o pipefail
