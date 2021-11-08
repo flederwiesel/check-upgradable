@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta name="flattr:id" content="ddqj3d">
+<title>VeraCrypt - Free Open source disk encryption with strong security for the Paranoid</title>
+<meta name="description" content="VeraCrypt is free open-source disk encryption software for Windows, Mac OS X and Linux. In case an attacker forces you to reveal the password, VeraCrypt provides plausible deniability. In contrast to file encryption, data encryption performed by VeraCrypt is real-time (on-the-fly), automatic, transparent, needs very little memory, and does not involve temporary unencrypted files."/>
+<meta name="keywords" content="encryption, security"/>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div>                      
+<a href="https://www.veracrypt.fr/en/Home.html"><img src="VeraCrypt128x128.png" alt="VeraCrypt"/></a>
+</div>
+
+<div id="menu">
+	<ul>
+	  <li><a href="Home.html">Home</a></li>
+	  <li><a href="/code/">Source Code</a></li>
+	  <li><a class="active" href="Downloads.html">Downloads</a></li>
+	  <li><a href="Documentation.html">Documentation</a></li>
+	  <li><a href="Donation.html">Donate</a></li>
+	  <li><a href="https://sourceforge.net/p/veracrypt/discussion/" target="_blank">Forums</a></li>
+	</ul>
+</div>
+
+<div class="wikidoc">
+<p>Note to publishers: If you intend to host our files on your server, please instead consider linking to this page. It will help us prevent spreading of obsolete versions, which we believe is critical when security software is concerned. Thank you.</p>
+<p><a href="Supported%20Operating%20Systems.html" style="text-align:left; color:#0080c0; text-decoration:none.html">Supported versions of operating systems</a></p>
+<p>PGP Public Key:&nbsp;<a href="https://www.idrix.fr/VeraCrypt/VeraCrypt_PGP_public_key.asc" target="_blank">https://www.idrix.fr/VeraCrypt/VeraCrypt_PGP_public_key.asc</a> (ID=0x680D16DE, Fingerprint=5069A233D55A0EEB174A5FC3821ACD02680D16DE<strong>)</strong></p>
+<h3>Latest Stable Release
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For macOS 10.7 and later: 1.24-Update8 (<span title="28/11/2020 11:56:00 PM">Saturday November 28, 2020</span>)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For the other operating systems: 1.24-Update7 (<span title="07/08/2020 11:56:00 PM">Friday August 7, 2020</span>)
+</h3>
+<ul>
+<li><strong><em style="text-align:left"><img src="Home_Windows_32x32.png" alt="" width="32" height="32">Windows</em></strong>:
+<ul>
+<li>Installer for Windows 8 and later: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Setup%201.24-Update7.exe">
+VeraCrypt Setup 1.24-Update7.exe</a> (34.5 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Setup%201.24-Update7.exe.sig">
+(PGP Signature)</a></li>
+<li>Portable version for Windows 8 and later: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Portable%201.24-Update7.exe">
+VeraCrypt Portable 1.24-Update7.exe</a> (34.3 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Portable%201.24-Update7.exe.sig">
+(PGP Signature)</a></li>
+<li>Installer for Windows XP, Vista and 7: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Legacy%20Setup%201.24-Update7.exe">
+VeraCrypt Legacy Setup 1.24-Update7.exe</a> (34.5 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Legacy%20Setup%201.24-Update7.exe.sig">
+(PGP Signature)</a></li>
+<li>Portable version for Windows XP, Vista and 7: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Legacy%20Portable%201.24-Update7.exe">
+VeraCrypt Legacy Portable 1.24-Update7.exe</a> (34.3 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt%20Legacy%20Portable%201.24-Update7.exe.sig">
+(PGP Signature)</a></li>
+<li>Debugging Symbols: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt_1.24-Update7_Windows_Symbols.zip">
+VeraCrypt_1.24-Update7_Windows_Symbols.zip</a> (9.68 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt_1.24-Update7_Windows_Symbols.zip.sig">
+(PGP Signature)</a></li>
+</ul>
+</li></ul>
+<ul>
+<li><strong><em style="text-align:left"><img src="Home_Finder_32x32.png" alt="" width="32" height="32">macOS</em></strong>:
+<ul>
+<li>macOS Mojave 10.14 and later: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update8/&#43;download/VeraCrypt_1.24-Update8.dmg">
+VeraCrypt_1.24-Update8.dmg</a> (6.4 MB)&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update8/&#43;download/VeraCrypt_1.24-Update8.dmg.sig">PGP Signature</a>)
+</li>
+<li>From macOS Lion 10.7 to macOS High Sierra 10.13: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update8/&#43;download/VeraCrypt_Legacy_1.24-Update8.dmg">
+VeraCrypt_Legacy_1.24-Update8.dmg</a> (9.9 MB)&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update8/&#43;download/VeraCrypt_Legacy_1.24-Update8.dmg.sig">PGP Signature</a>)
+</li>
+<li><strong><a href="https://osxfuse.github.io/" target="_blank">OSXFUSE </a></strong>3.10 or newer must be installed.
+</li></ul>
+</li></ul>
+<ul>
+<li><strong><em style="text-align:left"><img src="Home_Linux_32x32.png" alt="" width="32" height="32">Linux</em></strong>:
+<ul>
+<li>Generic Installers: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-setup.tar.bz2">
+veracrypt-1.24-Update7-setup.tar.bz2</a> (14.3 MB)&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-setup.tar.bz2.sig">PGP Signature</a>)
+</li>
+<li>Linux Legacy installer for 32-bit CPU with no SSE2: <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-x86-legacy-setup.tar.bz2">
+veracrypt-1.24-Update7-x86-legacy-setup.tar.bz2</a> (7.06 MB)&nbsp; <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-x86-legacy-setup.tar.bz2.sig">
+(PGP Signature)</a>
+</li>
+<li>
+Debian/Ubuntu packages:
+<ul>
+<li>
+Debian 11: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-11-amd64.deb">
+veracrypt-1.24-Update7-Debian-11-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-11-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-11-amd64.deb">
+veracrypt-console-1.24-Update7-Debian-11-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-11-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Debian 10: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-10-amd64.deb">
+veracrypt-1.24-Update7-Debian-10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-10-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-10-amd64.deb">
+veracrypt-console-1.24-Update7-Debian-10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-10-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Debian 9: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-9-amd64.deb">
+veracrypt-1.24-Update7-Debian-9-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-9-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>console:
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-9-amd64.deb">
+veracrypt-console-1.24-Update7-Debian-9-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-9-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 21.10: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-21.10-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-21.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-21.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-21.10-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-21.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-21.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 21.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-21.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-21.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-21.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-21.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-21.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-21.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 20.10: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-20.10-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-20.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-20.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-20.10-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-20.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-20.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 20.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-20.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-20.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-20.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 19.10: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-19.10-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-19.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-19.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-19.10-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-19.10-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-19.10-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 19.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-19.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-19.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-19.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-19.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-19.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-19.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 18.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-18.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-18.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-18.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-18.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-18.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-18.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 16.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-16.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-16.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-16.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-16.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-16.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-16.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 14.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-14.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-14.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-14.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-14.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-14.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-14.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+Ubuntu 12.04: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-12.04-amd64.deb">
+veracrypt-1.24-Update7-Ubuntu-12.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Ubuntu-12.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-12.04-amd64.deb">
+veracrypt-console-1.24-Update7-Ubuntu-12.04-amd64.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Ubuntu-12.04-amd64.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+</ul>
+<li>
+RPM packages:
+<ul>
+<li>
+CentOS 8: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-8-x86_64.rpm">
+veracrypt-1.24-Update7-CentOS-8-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-8-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-8-x86_64.rpm">
+veracrypt-console-1.24-Update7-CentOS-8-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-8-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+CentOS 7: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-7-x86_64.rpm">
+veracrypt-1.24-Update7-CentOS-7-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-7-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-7-x86_64.rpm">
+veracrypt-console-1.24-Update7-CentOS-7-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-7-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+CentOS 6: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-6-x86_64.rpm">
+veracrypt-1.24-Update7-CentOS-6-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-6-x86_64.rpm.sig">PGP Signature</a>) and 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-6-i686.rpm">
+veracrypt-1.24-Update7-CentOS-6-i686.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-CentOS-6-i686.rpm.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-6-x86_64.rpm">
+veracrypt-console-1.24-Update7-CentOS-6-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-6-x86_64.rpm.sig">PGP Signature</a>) and 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-6-i686.rpm">
+veracrypt-console-1.24-Update7-CentOS-6-i686.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-CentOS-6-i686.rpm.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>
+openSUSE 15: 
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-openSUSE-15-x86_64.rpm">
+veracrypt-1.24-Update7-openSUSE-15-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-openSUSE-15-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-openSUSE-15-x86_64.rpm">
+veracrypt-console-1.24-Update7-openSUSE-15-x86_64.rpm</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-openSUSE-15-x86_64.rpm.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li></ul>
+<ul>
+<li><em><strong><img src="Home_RaspberryPi_32x32.png" alt="Raspbian" width="32" height="32">Raspberry Pi OS 32-bit:</strong></em>
+<ul>
+<li>Debian 10 Buster armhf:
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-10-armhf.deb">
+veracrypt-1.24-Update7-Debian-10-armhf.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-10-armhf.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-10-armhf.deb">
+veracrypt-console-1.24-Update7-Debian-10-armhf.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-10-armhf.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+<li>Debian 9 Stretch armhf:
+<ul>
+<li>GUI: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-9-armhf.deb">
+veracrypt-1.24-Update7-Debian-9-armhf.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-Debian-9-armhf.deb.sig">PGP Signature</a>)
+</li>
+<li>Console: 
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-9-armhf.deb">
+veracrypt-console-1.24-Update7-Debian-9-armhf.deb</a>&nbsp; (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-console-1.24-Update7-Debian-9-armhf.deb.sig">PGP Signature</a>)
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><em><strong><img src="freebsd-32x32.png" alt="FreeBSD 11" width="32" height="32">FreeBSD 11 (i386 & amd64):</strong></em>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-freebsd-setup.tar.bz2">
+veracrypt-1.24-Update7-freebsd-setup.tar.bz2 (14.8 MB)</a> (<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-freebsd-setup.tar.bz2.sig">PGP Signature</a>)
+</li></ul>
+<ul>
+<li><em><strong><img src="Home_utilities-file-archiver-3.png" alt="" width="32" height="32">Source Code:</strong></em>
+<ul>
+<li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Source.zip">VeraCrypt 1.24-Update7 Source (Windows Zip)</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Source.zip.sig">
+(PGP Signature)</a> </li>
+<li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Source.tar.bz2">VeraCrypt 1.24-Update7 Source (UNIX tar bzip2)</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Source.tar.bz2.sig">
+(PGP Signature)</a> </li><li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt-DCS-EFI-LGPL_1.24-Update7_Source.zip">VeraCrypt DCS EFI Bootloader 1.24-Update7 Source</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt-DCS-EFI-LGPL_1.24-Update7_Source.zip.sig">
+(PGP Signature)</a> </li></ul>
+</li></ul>
+<ul>
+<li><em><img src="chm_32x32.png" alt="" width="32" height="32"><strong>User Guide CHM: </strong></em><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt%20User%20Guide.chm">VeraCrypt 1.24-Update7 User Guide CHM</a>&nbsp;<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt%20User%20Guide.chm.sig">(PGP
+ Signature)</a> </li></ul>
+<ul>
+<li><em><strong>Full list of changes:</strong></em> <a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/README.TXT">
+README.txt</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/README.TXT.sig">
+(PGP Signature)</a>
+</li></ul>
+<ul>
+<li><strong><em>Checksums:</em></strong>
+<ul>
+<li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-sha256sum.txt">SHA256 sums for VeraCrypt 1.24-Update7 release files</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-sha256sum.txt.sig">
+(PGP Signature)</a>
+</li><li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-sha512sum.txt">SHA512 sums for VeraCrypt 1.24-Update7 release files</a>
+<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/veracrypt-1.24-Update7-sha512sum.txt.sig">
+(PGP Signature)</a>
+</li>
+</ul>
+</li></ul>
+<ul>
+<li><strong>Bundle containing all release files:</strong>
+<ul>
+<li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Bundle.7z">VeraCrypt_1.24-Update7_Bundle.7z</a>&nbsp;<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Bundle.7z.sig">(PGP Signature)</a>
+</li><li><a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Bundle.7z.checksums">SHA256/SHA512 sums of VeraCrypt 1.24-Update7 Bundle</a>&nbsp;<a href="https://launchpad.net/veracrypt/trunk/1.24-update7/&#43;download/VeraCrypt_1.24-Update7_Bundle.7z.checksums.sig">(PGP Signature)</a>
+</li></ul>
+</li></ul>
+<p>&nbsp;</p>
+<p><a href="Digital%20Signatures.html" style="text-align:left; color:#0080c0;">What are PGP signatures?</a></p>
+<p>&nbsp;</p>
+</div>
+
+</body></html>
