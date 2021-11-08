@@ -32,7 +32,7 @@ apps=(
 	"TortoiseGit	2.12.0	f9ae1232e9487183f22ea43277834e8a	https://tortoisegit.org/download/"
 	"TortoiseSVN	1.14.1	2f7477e50e164bb95b655b0024f460ed	https://tortoisesvn.net/downloads.html"
 	"Unison	v2.51.4	4832ba2e4c1ae1f093c0d65c450b4f66	https://api.github.com/repos/bcpierce00/unison/releases/latest| jq -r .published_at"
-	"VeraCrypt	1.24-Update7 (Friday August 7, 2020)	6f6bd6953c25802b77c8ae496fd9fda7	https://www.veracrypt.fr/en/Downloads.html"
+	"VeraCrypt	1.24-Update7 (Friday August 7, 2020)	6fd85f93ead13e105b06c40d7834ce91	https://www.veracrypt.fr/en/Downloads.html"
 	"VirtualBox	6.1.28	0adaa84fa5ee6f9c0b38631ec5b62fe7	https://www.virtualbox.org/wiki/Downloads"
 	"VirtuaWin	4.5	7b8395abcd47ee2bc71ab08ccad02308	https://virtuawin.sourceforge.io/?page_id=2"
 	"VLC Media Player	3.0.16	770ab3b4a6dd0ba206ebf5b884009578	https://api.github.com/repos/videolan/vlc/tags"
