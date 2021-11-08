@@ -10,7 +10,7 @@ apps=(
 	"Beyond Compare	4.4.0, build 25886, released Aug. 13, 2021	72b9fe0bae1e234a8e07cd7a36832c2c	https://scootersoftware.com/download.php| grep 'Current Version:'"
 	"fra-airtraffic	1.0.0.0	05c530eefc4e5c7652daacca2f4bfe3d	https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest"
 	"GIMP	2.10.28	614e8738c77d13ddaf5dca43b874161c	https://www.gimp.org/downloads/| grep 'The current stable release of GIMP is'"
-	"Go Compiler	1.17.2	0addae92234a64c244095f2d095640a1	https://golang.org/dl/| sed -n '/toggleVisible/ { p; q }'"
+	"Go Compiler	1.17.3	c36b82dcc34b57a41d375791eb671ba7	https://golang.org/dl/| sed -n '/toggleVisible/ { p; q }'"
 	"Google Chrome	94.0.4606.113 (Oct. 28, 2021)	5fbfdecf0844c07301bc011fa86ebbc1	https://latestversionof.com/chrome/"
 	"gtk2-runtime	2.24.33-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
 #	"gtk2-runtime	3.24.24-2021-01-30	bf989de4faf29a08b39ae207dd6c9c49	https://api.github.com/repos/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/latest| jq -r .published_at"
