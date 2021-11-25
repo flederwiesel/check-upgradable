@@ -8,7 +8,7 @@ apps=(
 	"Apple Mobile Device Support	15.0.0.16	8802d0f56f34154cbd970ccec27dd24d	https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
 	"Apple Software Update	2.6.3.1	8802d0f56f34154cbd970ccec27dd24d	https://secure-appldnld.apple.com/itunes12/002-06911-20210923-55ADFFE8-1CC3-11EC-8F53-336B1236DAE3/iTunes64Setup.exe"
 	"Beyond Compare	4.4.0, build 25886, released Aug. 13, 2021	72b9fe0bae1e234a8e07cd7a36832c2c	https://scootersoftware.com/download.php| grep 'Current Version:'"
-	"fra-airtraffic	1.0.0.0	05c530eefc4e5c7652daacca2f4bfe3d	https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest"
+	"fra-airtraffic	v1.0.0	f42746af0044eec7128ad4278d86d2bf	https://api.github.com/repos/flederwiesel/fra-airtraffic/releases/latest| jq -r .published_at"
 	"GIMP	2.10.28	614e8738c77d13ddaf5dca43b874161c	https://www.gimp.org/downloads/| grep 'The current stable release of GIMP is'"
 	"Go Compiler	1.17.3	c36b82dcc34b57a41d375791eb671ba7	https://golang.org/dl/| sed -n '/toggleVisible/ { p; q }'"
 	"Google Chrome	97.0.4692.20 (Nov. 18, 2021)	a7c7bd25cb4f05b298de2ba9289762d2	https://latestversionof.com/chrome/"
