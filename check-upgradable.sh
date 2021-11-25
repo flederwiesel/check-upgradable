@@ -28,7 +28,7 @@ apps=(
 	"Qt6	6.2.1	68f845b8a490ce3a76e7bd71fc381e36	https://www.qt.io/offline-installers| sed -rn '/qt\\\\/6/ { s:.*(<a.*qt/6.*)</a>.*:\\\\1:g; /-rc[0-9]/!p }'"
 	"SamsungDeX	2.0.1.2	29f5c4d25f13663eacd10f83803176d7	https://www.samsung.com/global/download/SamsungDeXWin	SamsungDeXSetupWin.exe"
 	"SciTE	5.1.4	f50d548d6a7937da3d6b20ae7a585190	https://www.scintilla.org/ScintillaDownload.html"
-	"TigerVNC	1.11.0	9dd0eba6293fa6b4bc9743ec31db347c	https://api.github.com/repos/TigerVNC/tigervnc/releases/latest| jq -r .published_at"
+	"TigerVNC	1.12.0	a7e9eff7293ba1bb92b875e83d99d426	https://api.github.com/repos/TigerVNC/tigervnc/releases/latest| jq -r .published_at"
 	"TortoiseGit	2.12.0	f9ae1232e9487183f22ea43277834e8a	https://tortoisegit.org/download/"
 	"TortoiseSVN	1.14.1	2f7477e50e164bb95b655b0024f460ed	https://tortoisesvn.net/downloads.html"
 	"Unison	v2.51.4	4832ba2e4c1ae1f093c0d65c450b4f66	https://api.github.com/repos/bcpierce00/unison/releases/latest| jq -r .published_at"
