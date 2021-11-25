@@ -18,7 +18,7 @@ apps=(
 	"KeePass	2.49	b013b88d2d5b9a15b9fc9d4462260b49	https://keepass.info/download.html"
 	"Mozilla Firefox	94.0.1	65faae12cd5d4803aacbcbb8ce43d0a4	https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US	Firefox-Setup.exe"
 	"Notepad++	8.1.9	1c364b3b3ca764d748d1b88799bb965b	https://notepad-plus-plus.org/downloads/"
-	"Paint.NET	4.3.2	01708a41ab0942be865b941603e15e08	https://www.getpaint.net/download.html"
+	"Paint.NET	4.3.3	19a5dec18620bcb8d36fad6e44c96389	https://www.getpaint.net/download.html"
 	"PCANView	4.3.4.615	4ee7a82877375a3b41afa2b0e16487ab	https://www.peak-system.com/fileadmin/media/files/pcanview.zip"
 	"PuTTY	0.76	6eb151692238dd71515a388c7e9522c9	https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
 	"Python	3.10.0	63eb318dc73ea7b474871dabc52e87f3	https://www.python.org/downloads/| grep -m 1 'href=\"/downloads/release/python-'"
