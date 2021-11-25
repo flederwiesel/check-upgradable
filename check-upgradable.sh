@@ -30,7 +30,7 @@ apps=(
 	"SciTE	5.1.4	f50d548d6a7937da3d6b20ae7a585190	https://www.scintilla.org/ScintillaDownload.html"
 	"TigerVNC	1.12.0	a7e9eff7293ba1bb92b875e83d99d426	https://api.github.com/repos/TigerVNC/tigervnc/releases/latest| jq -r .published_at"
 	"TortoiseGit	2.12.0	f9ae1232e9487183f22ea43277834e8a	https://tortoisegit.org/download/"
-	"TortoiseSVN	1.14.1	2f7477e50e164bb95b655b0024f460ed	https://tortoisesvn.net/downloads.html"
+	"TortoiseSVN	1.14.1	cb3f7170f25f0579c01b9af85470647c	https://tortoisesvn.net/Changelog.txt"
 	"Unison	v2.51.4	4832ba2e4c1ae1f093c0d65c450b4f66	https://api.github.com/repos/bcpierce00/unison/releases/latest| jq -r .published_at"
 	"VeraCrypt	1.24-Update7 (Friday August 7, 2020)	6fd85f93ead13e105b06c40d7834ce91	https://www.veracrypt.fr/en/Downloads.html"
 	"VirtualBox	6.1.30	dc18811ab22e558a3232c6adcbc468a7	https://www.virtualbox.org/wiki/Downloads"
