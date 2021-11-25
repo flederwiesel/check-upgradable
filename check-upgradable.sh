@@ -37,7 +37,7 @@ apps=(
 	"VirtuaWin	4.5	7b8395abcd47ee2bc71ab08ccad02308	https://virtuawin.sourceforge.io/?page_id=2"
 	"VLC Media Player	3.0.16	770ab3b4a6dd0ba206ebf5b884009578	https://api.github.com/repos/videolan/vlc/tags"
 	"VSCode	1.62.3	f7887ed07e03b3e9df56b6f47a0a2104	https://code.visualstudio.com/sha/download?build=stable&os=win32-x64	VSCodeSetup-x64-1.62.3.exe"
-	"Wireshark	3.4.9	9d940ff8b0ea42613adb24d01861f0b9	https://www.wireshark.org/download/| sed '/rc[0-9][0-9]*\\\\./d; s/<td class=\\\"indexcollastmod\\\">[^<]*<\\\\/td>//g'"
+	"Wireshark	3.6.0	c725914a3b7ec640b4663be634c47494	https://www.wireshark.org/download/win64/Wireshark-win64-latest.exe"
 	"XAMPP	8.0.12	7dd42f4ef0c65fc7f81b57cd05600eab	https://www.apachefriends.org/download.html"
 	"yEd	3.21.1	934a24495d4742e7cdfb266e2bb569fb	https://www.yworks.com/products/yed/download%23download| sed 's/</\\\\n&/g' | grep '<h3>Download'"
 )
